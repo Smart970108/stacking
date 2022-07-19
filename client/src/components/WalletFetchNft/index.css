@@ -1,0 +1,145 @@
+.inPageContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.inPageFlex{   
+    margin: auto;
+    text-align: center; 
+    display: flex;
+    height: 100%;
+
+}
+.inPageFlex img{
+    margin: auto;
+}
+@media screen and (min-width:1650px) {
+    .nftBox{
+        width: 12.33%;
+        transition: 0.6s ease-in-out !important;
+    }
+}
+@media screen and (min-width:1400px),(min-width:1650px) {
+    .nftBox{
+        width: 26.33%;
+        transition: 0.6s ease-in-out !important;
+    }
+}
+@media screen and (max-width:1399px),(min-width:1100px) {
+    .nftBox{
+        width: 35.33%;
+        transition: 0.6s ease-in-out !important;
+    }
+}
+@media screen and (max-width:1099px),(min-width:699px) {
+    .nftBox{
+        width: 48.33%;
+        transition: 0.6s ease-in-out !important;
+    }
+}
+@media screen and (max-width:698px) {
+    .nftBox{
+        width: 65.33%;
+        transition: 0.6s ease-in-out !important;
+    }
+}
+.nftBox{
+    position: relative;
+    margin: 0.5rem ;
+    max-width: 10rem;
+    min-width: 10rem;
+    background-color: #30353b;
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px 3px #000000;
+}
+.nftBox img{
+    border-radius: 16px;
+}
+.nftBox h4{
+    margin: 1rem 0 1rem .5rem;
+}
+.nftBox:hover{
+    transform:scale(1.05);
+}
+.nftBoxText{
+    display: flex;
+}
+.nftBoxText button{
+    margin-left: auto;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 7px;
+    background: none;
+    width: 50%;
+    border: 1px solid #7fbcad;
+    color: rgb(221, 31, 255);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.loading {
+    height: 20vmin;
+    pointer-events: none;
+  }
+@media (prefers-reduced-motion: no-preference) {
+    .loading {
+        animation: App-logo-spin infinite 10s linear;
+    }
+}
+  
+@keyframes App-logo-spin {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}
+#filter{
+    color: inherit;
+    background: 0px center;
+    opacity: 1;
+    width: 100%;
+    grid-area: 1 / 2 / auto / auto;
+    font: inherit;
+    min-width: 2px;
+    border: 0px;
+    margin: 0px;
+    outline: 0px;
+    padding-left: 1rem;
+}
+#filter::after{
+    visibility: hidden;
+    white-space: pre;
+    grid-area: 1 / 2 / auto / auto;
+    font: inherit;
+    min-width: 2px;
+    border: 0px;
+    margin: 0px;
+    outline: 0px;
+    padding: 0px;
+}
+.inputDiv{
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgb(9, 8, 13);
+    border-radius: 4px;
+    box-shadow: none;
+    cursor: text;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    min-height: 36px;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    transition: all 100ms ease 0s;
+    box-sizing: border-box;
+    height: 36px;
+    width: 60%;
+    border: 1px solid rgb(89, 82, 128);
+    opacity: 0.85;
+    margin: 1rem auto 1rem auto;
+}

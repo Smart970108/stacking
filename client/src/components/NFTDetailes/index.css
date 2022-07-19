@@ -1,0 +1,63 @@
+.popup-content {
+  background: none !important;
+  border: none !important;
+  width: 80%;
+}
+.DetailedNFT {
+  background: #10110f;
+  padding: 2rem 3rem 3rem 3rem;
+  border-radius: 16px !important;
+  box-shadow: 0px 0px 20px 3px #000000;
+}
+.DetailedNFTImgContainer img {
+  border-radius: 16px;
+  box-shadow: 0px 0px 20px 5px #000000;
+  margin: auto;
+  margin-right: 2rem;
+}
+.DetailedNFT h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.DetailedNFTImgContainer {
+  margin-right: 2rem;
+}
+.DescriptionBox {
+  border: 1px solid #6741FF;
+  border-radius: 7px;
+  margin-top: 0.3rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+.DescriptionBoxDetailes {
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid #6741FF;
+  border-radius: 7px;
+  margin-bottom: 1rem;
+  margin-top: 0.2rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+.DescriptionBoxDetailes:last-child {
+  margin-top: 1rem;
+  color: #9074FF;
+  font-weight: 800;
+}
+
+@media screen and (min-width: 993px) {
+  .DetailedNFTContainer {
+    display: flex;
+  }
+}
+@media screen and (max-width: 992px) {
+  .DetailedNFTContainer {
+    display: block;
+  }
+  .DetailedNFTImgContainer img {
+    max-width: 15rem;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+}

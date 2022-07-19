@@ -1,0 +1,30 @@
+@media screen and (min-width: 993px) {
+  .Page {
+    /* display: grid;
+        grid-template-columns: 15rem repeat(5, 1fr);
+        grid-template-rows: 4rem repeat(4, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        min-height: 90vh; */
+  }
+}
+@media screen and (max-width: 992px) {
+  .Page {
+    display: block;
+  }
+}
+
+.banner0 {
+  text-align: center;
+  background-image: linear-gradient(24deg, rgb(62 75 104) 0%, rgb(29 50 98) 100%);
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 30px;
+  /* background-image: linear-gradient(24deg, rgba(220,31,255,1) 0%, rgba(0,255,163,1) 100%); */
+  color: #fff;
+  margin-top: 1vh;
+}

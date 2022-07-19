@@ -1,0 +1,44 @@
+.projectDetailes{
+    min-width: 4rem;
+    background-color: #4a5248;
+    border: none;
+    display: flex;
+    color: #feffff;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.projectDetailes:hover{
+    color: #121311;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    background: #2f3035;
+}
+
+.infoBox {
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    color: #dad8d7;
+    border: none;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 600;
+}
+
+.infoButton {
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 32px;
+    text-align: center;
+    border: none;
+}

@@ -1,0 +1,19 @@
+@media screen and (min-width:993px) {
+    .Header {
+        grid-area: 1 / 2 / 2 / 6;
+        display: flex;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: auto;
+    }
+}
+@media screen and (max-width:992px) {
+    .Header {    
+        display: flex;
+        margin: 1rem auto 1rem auto;
+    }
+    
+    .Header h1{    
+        margin: auto;
+    }
+}

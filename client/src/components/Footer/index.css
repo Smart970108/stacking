@@ -1,0 +1,38 @@
+@media screen and (min-width:993px) {
+    .Footer{
+        display: block;
+        grid-area: 6 / 2 / 7 / 7;
+    }
+}
+@media screen and (max-width:992px) {
+    .Footer{
+        display: none;
+    }
+}
+
+@media screen and (min-width:993px) {
+    .socialMedia{
+        display: block;
+        grid-area: 6 / 1 / 7 / 2;
+    }
+}
+@media screen and (max-width:992px) {
+    .socialMedia{
+        display: none;
+    }
+}
+.Footer{
+    background: #121311;
+    margin: .25rem 0rem 0rem 0.25rem;
+    border-left: 1px solid #1a1b18 ;
+    border-top: 1px solid #1a1b18;
+    border-top-left-radius: 14px;
+}
+.socialMedia{
+    grid-area: 6 / 1 / 7 / 2;
+    background: #121311;
+    margin: .25rem 0rem 0rem 0rem ;
+    border-right: 1px solid #1a1b18 ;
+    border-top: 1px solid #1a1b18;
+    border-top-right-radius: 14px;
+}

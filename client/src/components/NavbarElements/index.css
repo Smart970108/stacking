@@ -1,0 +1,32 @@
+.NavbarUL{
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.NavbarElement{
+    padding-top: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 7px;
+    padding-left: 1rem;
+    transition: .3s ease-in-out;
+}
+.NavbarElement:hover{
+    background-color:  #283126 !important;
+}
+.active{
+    background-color:  #30353b;
+}
+a:-webkit-any-link {
+    color: #eee;
+    cursor: pointer;
+}
+
+@media screen and (min-width:993px) {
+    .displayresponsive{
+        display: none!important;
+    }
+    
+}

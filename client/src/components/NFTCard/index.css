@@ -1,0 +1,98 @@
+.staked {
+  position: absolute;
+  transform: rotate(315deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #1effa9;
+}
+
+.staked h1 {
+  border: 2px solid #1effa9;
+  border-radius: 7px;
+  padding: 0.5rem 2rem;
+  margin-left: -2rem;
+  margin-top: 4rem;
+}
+
+.selected {
+  color: #1effa9;
+  text-align: center;
+}
+
+.locked {
+  color: #686868;
+  text-align: center;
+}
+
+.popup-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (min-width: 1650px) {
+  .nftBox {
+    width: 12.33%;
+    transition: 0.6s ease-in-out !important;
+  }
+}
+@media screen and (min-width: 1400px), (min-width: 1650px) {
+  .nftBox {
+    width: 26.33%;
+    transition: 0.6s ease-in-out !important;
+  }
+}
+@media screen and (max-width: 1399px), (min-width: 1100px) {
+  .nftBox {
+    width: 35.33%;
+    transition: 0.6s ease-in-out !important;
+  }
+}
+@media screen and (max-width: 1099px), (min-width: 699px) {
+  .nftBox {
+    width: 48.33%;
+    transition: 0.6s ease-in-out !important;
+  }
+}
+@media screen and (max-width: 698px) {
+  .nftBox {
+    width: 65.33%;
+    transition: 0.6s ease-in-out !important;
+  }
+}
+.nftBox {
+  position: relative;
+  /* margin: 0.5rem ; */
+  margin: auto;
+  margin-bottom: 1vh;
+  max-width: 10rem;
+  min-width: 10rem;
+  background-color: #30353b;
+  border-radius: 16px;
+  box-shadow: 0px 0px 20px 3px #000000;
+}
+.nftBox img {
+  border-radius: 16px;
+}
+.nftBox h4 {
+  margin: 1rem 0 1rem 0.5rem;
+}
+.nftBox:hover {
+  transform: scale(1.05);
+}
+.nftBoxText {
+  display: flex;
+}
+.nftBoxText button {
+  margin-left: auto;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 7px;
+  background: none;
+  width: 50%;
+  border: 1px solid #7fbcad;
+  color: rgb(221, 31, 255);
+  font-weight: 700;
+  cursor: pointer;
+}

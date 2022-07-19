@@ -1,0 +1,74 @@
+@media screen and (max-width:992px) {
+    .Navbar{
+        transition: .3s ease-in-out;
+    }
+    .NavbarContainer{
+        display: none;
+    }
+    .responsiveNavbar{
+        margin-top: 1rem;
+    }
+    .NavbarImg{
+        margin-left: 1rem;
+        width: 13rem;
+    }
+    .responsiveNavbarElements{
+        width: 14rem;
+        margin: auto;
+    }
+    
+}
+@media screen and (min-width:993px) {
+    .Navbar{
+        display: block;
+        width: 15rem;
+        margin-top: .5rem;
+        grid-area: 1 / 1 / 6 / 2;
+        transition: .3s ease-in-out;
+    }
+    .dropDown{
+     display: none;   
+    }.responsiveNavbar{
+        border-right: 1px solid #1a1b18;
+        border-top: 1px solid #1a1b18;
+        border-top-right-radius: 14px;
+        background: #121311;
+    }
+    .NavbarImg{
+        width: 13rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+.NavbarContainer{
+    width: 15rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    border-bottom: 1px solid #1a1b18;
+    border-right: 1px solid #1a1b18;
+    border-bottom-right-radius: 14px;
+    background: #121311;
+    margin-top: -1rem;
+    padding-bottom:.5rem;
+}
+.dropDown{
+    transition: .3s ease-in-out;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+.dropDown:hover{
+    background-color:  #283126 !important;
+}
+.dropDown:active {
+    position: relative;
+    top:.1rem;
+}
+.responsiveNavbarElements{
+    display: block;
+    transition: .3s ease-in-out;
+}
